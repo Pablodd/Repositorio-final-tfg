@@ -1,285 +1,0 @@
-nohup: ignoring input
-Iniciando subida forzada...
-Terminated
-🚀 Iniciando monitorización, subida y notificaciones Firebase...
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-✅ [15:10:25] Directo detectado. Registrando en MariaDB y Firestore...
-🚀 Iniciando monitorización, subida y notificaciones Firebase...
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  119.0 B]                                                / [1 files][  119.0 B/  119.0 B]                                                
-Operation completed over 1 objects/119.0 B.                                      
-✅ [15:12:50] Directo detectado. Registrando en MariaDB y Firestore...
-ERROR 2002 (HY000): Can't connect to server on '10.0.1.5' (115)
-📝 Notificaciones enviadas correctamente.
-🔄 Sincronizado: 15:15:00
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  455.0 B]                                                / [1 files][  455.0 B/  455.0 B]                                                
-Operation completed over 1 objects/455.0 B.                                      
-🔄 Sincronizado: 15:15:07
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  456.0 B]                                                / [1 files][  456.0 B/  456.0 B]                                                
-Operation completed over 1 objects/456.0 B.                                      
-🔄 Sincronizado: 15:15:13
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  457.0 B]                                                / [1 files][  457.0 B/  457.0 B]                                                
-Operation completed over 1 objects/457.0 B.                                      
-🔄 Sincronizado: 15:15:20
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  458.0 B]                                                / [1 files][  458.0 B/  458.0 B]                                                
-Operation completed over 1 objects/458.0 B.                                      
-🔄 Sincronizado: 15:15:27
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  459.0 B]                                                / [1 files][  459.0 B/  459.0 B]                                                
-Operation completed over 1 objects/459.0 B.                                      
-🔄 Sincronizado: 15:15:33
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  459.0 B]                                                / [1 files][  459.0 B/  459.0 B]                                                
-Operation completed over 1 objects/459.0 B.                                      
-🔄 Sincronizado: 15:15:40
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  460.0 B]                                                / [1 files][  460.0 B/  460.0 B]                                                
-Operation completed over 1 objects/460.0 B.                                      
-🔄 Sincronizado: 15:15:46
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  461.0 B]                                                / [1 files][  461.0 B/  461.0 B]                                                
-Operation completed over 1 objects/461.0 B.                                      
-🔄 Sincronizado: 15:15:53
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  462.0 B]                                                / [1 files][  462.0 B/  462.0 B]                                                
-Operation completed over 1 objects/462.0 B.                                      
-🔄 Sincronizado: 15:15:59
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  462.0 B]                                                / [1 files][  462.0 B/  462.0 B]                                                
-Operation completed over 1 objects/462.0 B.                                      
-🔄 Sincronizado: 15:16:06
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:12
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:19
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:26
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:32
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:39
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:46
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:52
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:16:59
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:06
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:12
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:18
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:24
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:31
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:37
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:43
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:49
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:17:55
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:01
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:07
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:13
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:20
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:26
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:32
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:37
-Copying file:///home/pablo_perez92/stream-project/hls/TEST.m3u8 [Content-Type=application/vnd.apple.mpegurl]...
-/ [0 files][    0.0 B/  464.0 B]                                                / [1 files][  464.0 B/  464.0 B]                                                
-Operation completed over 1 objects/464.0 B.                                      
-🔄 Sincronizado: 15:18:43
-🛑 [15:18:47] Finalizando. Actualizando MariaDB y Firestore...
-ERROR 2002 (HY000): Can't connect to server on '10.0.1.5' (115)
-☁️ Estado Firestore: OFFLINE
-🚀 Iniciando monitorización, subida y notificaciones Firebase...
-🚀 Iniciando monitorización, subida y notificaciones Firebase...
-🚀 Iniciando monitorización, subida y notificaciones Firebase...
-🚀 Iniciando Streaming para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins>
-🚀 Iniciando Streaming para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins>
-🚀 Iniciando Sincronización para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins>
-📂 Destino en Storage: gs://tfg-stream-bucket-2026/hls/<!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins>
-🚀 Iniciando Sincronización para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins>
-🚀 Iniciando Sincronización para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins>
-🚀 Iniciando Sincronización para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins> en VM: servidor-streaming-tfg
-🚀 Iniciando Sincronización para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins> en VM: servidor-streaming-tfg
-🚀 Iniciando Sincronización para KEY: <!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server.  <ins>That’s all we know.</ins> en VM: servidor-streaming-tfg
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
-🚀 Sincronización ACTIVA
-🔑 Clave Limpia: '<!DOCTYPE html><html lang=en> <meta charset=utf-8> <meta name=viewport content=initial-scale=1, minimum-scale=1, width=device-width> <title>Error 404 (Not Found)!!1</title> <style> *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px} </style> <a href=//www.google.com/><span id=logo aria-label=Google></span></a> <p><b>404.</b> <ins>That’s an error.</ins> <p>The requested URL <code>/computeMetadata/v1/instance/attributes/current_stream_key</code> was not found on this server. <ins>That’s all we know.</ins>'
-📂 Buscando archivos en: /home/pablo_perez92/stream-project/hls
