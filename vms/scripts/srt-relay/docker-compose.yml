@@ -1,0 +1,11 @@
+services:
+  srt-relay:
+    image: ossrs/srs:5
+    container_name: srt-relay-srs
+    ports:
+      - "10000:10000/udp"
+      - "1935:1935"
+      - "8080:8080"
+    environment:
+      - SRS_SRT_ENABLED=on
+      - SRS_SRT_LISTEN=10000
