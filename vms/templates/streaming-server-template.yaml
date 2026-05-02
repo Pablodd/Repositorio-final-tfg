@@ -1,0 +1,59 @@
+creationTimestamp: '2026-04-28T10:09:27.132-07:00'
+description: ''
+id: '674365531324503848'
+kind: compute#instanceTemplate
+name: template-streaming-tfg-v6
+properties:
+  canIpForward: false
+  confidentialInstanceConfig:
+    enableConfidentialCompute: false
+  description: ''
+  disks:
+  - autoDelete: true
+    boot: true
+    deviceName: template-streaming-tfg-v6
+    index: 0
+    initializeParams:
+      diskSizeGb: '30'
+      diskType: pd-balanced
+      sourceImage: projects/stream-cloud-tfg/global/images/imagen-streaming-v6
+    kind: compute#attachedDisk
+    mode: READ_WRITE
+    type: PERSISTENT
+  keyRevocationActionType: NONE
+  machineType: e2-standard-4
+  metadata:
+    fingerprint: 30aET-M_hNM=
+    kind: compute#metadata
+  networkInterfaces:
+  - accessConfigs:
+    - kind: compute#accessConfig
+      name: External NAT
+      networkTier: PREMIUM
+      type: ONE_TO_ONE_NAT
+    kind: compute#networkInterface
+    name: nic0
+    network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+    stackType: IPV4_ONLY
+    subnetwork: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/regions/europe-southwest1/subnetworks/subred-madrid
+  reservationAffinity:
+    consumeReservationType: ANY_RESERVATION
+  scheduling:
+    automaticRestart: true
+    onHostMaintenance: MIGRATE
+    preemptible: false
+    provisioningModel: STANDARD
+  serviceAccounts:
+  - email: 148909849620-compute@developer.gserviceaccount.com
+    scopes:
+    - https://www.googleapis.com/auth/cloud-platform
+  shieldedInstanceConfig:
+    enableIntegrityMonitoring: true
+    enableSecureBoot: false
+    enableVtpm: true
+  tags:
+    items:
+    - http-server
+    - https-server
+region: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/regions/europe-southwest1
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/regions/europe-southwest1/instanceTemplates/template-streaming-tfg-v6
