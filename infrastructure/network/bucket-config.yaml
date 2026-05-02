@@ -1,0 +1,20 @@
+gs://tfg-stream-bucket-2026/ :
+	Storage class:			STANDARD
+	Location type:			region
+	Location constraint:		EUROPE-SOUTHWEST1
+	Versioning enabled:		None
+	Logging configuration:		None
+	Website configuration:		None
+	CORS configuration: 		Present
+	Lifecycle configuration:	Present
+	Requester Pays enabled:		None
+	Labels:				None
+	Default KMS key:		None
+	Time created:			Sat, 28 Mar 2026 12:00:18 GMT
+	Time updated:			Sat, 25 Apr 2026 10:38:50 GMT
+	Metageneration:			12
+	Bucket Policy Only enabled:	True
+	Public access prevention:	inherited
+	Satisfies PZS:			True
+	ACL:				[]
+	Default ACL:			[]
