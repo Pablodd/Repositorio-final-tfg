@@ -1,0 +1,43 @@
+{
+  "architecture": "X86_64",
+  "archiveSizeBytes": "4059078656",
+  "creationTimestamp": "2026-04-28T10:06:32.733-07:00",
+  "diskSizeGb": "30",
+  "enableConfidentialCompute": false,
+  "guestOsFeatures": [
+    {
+      "type": "UEFI_COMPATIBLE"
+    },
+    {
+      "type": "VIRTIO_SCSI_MULTIQUEUE"
+    },
+    {
+      "type": "GVNIC"
+    },
+    {
+      "type": "SEV_CAPABLE"
+    },
+    {
+      "type": "SEV_LIVE_MIGRATABLE_V2"
+    }
+  ],
+  "id": "1464148173824808952",
+  "kind": "compute#image",
+  "labelFingerprint": "42WmSpB8rSM=",
+  "licenseCodes": [
+    "2147286739765738111"
+  ],
+  "licenses": [
+    "projects/debian-cloud/global/licenses/debian-12-bookworm"
+  ],
+  "name": "imagen-streaming-v6",
+  "satisfiesPzi": true,
+  "selfLink": "projects/stream-cloud-tfg/global/images/imagen-streaming-v6",
+  "sourceDisk": "projects/stream-cloud-tfg/zones/europe-southwest1-a/disks/servidor-streaming-tfg",
+  "sourceDiskId": "5499295391803905543",
+  "sourceType": "RAW",
+  "status": "READY",
+  "storageLocations": [
+    "europe-southwest1"
+  ]
+}
