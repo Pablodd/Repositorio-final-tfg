@@ -1,0 +1,17 @@
+autoCreateSubnetworks: false
+creationTimestamp: '2026-03-28T02:34:31.622-07:00'
+description: Red privada de Stream-cloud
+id: '561145142521241160'
+kind: compute#network
+name: red-stream-tfg
+networkFirewallPolicyEnforcementOrder: AFTER_CLASSIC_FIREWALL
+routingConfig:
+  bgpBestPathSelectionMode: LEGACY
+  routingMode: REGIONAL
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+selfLinkWithId: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/561145142521241160
+subnetworks:
+- https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/regions/europe-southwest1/subnetworks/aet-europesouthwest1-conector--tfg-sbnt
+- https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/regions/europe-southwest1/subnetworks/subred-madrid
+x_gcloud_bgp_routing_mode: REGIONAL
+x_gcloud_subnet_mode: CUSTOM

@@ -1,0 +1,95 @@
+canIpForward: false
+confidentialInstanceConfig:
+  enableConfidentialCompute: false
+cpuPlatform: Unknown CPU Platform
+creationTimestamp: '2026-03-28T03:09:44.908-07:00'
+deletionProtection: false
+description: ''
+disks:
+- architecture: X86_64
+  autoDelete: true
+  boot: true
+  deviceName: servidor-streaming-tfg
+  diskSizeGb: '30'
+  guestOsFeatures:
+  - type: UEFI_COMPATIBLE
+  - type: VIRTIO_SCSI_MULTIQUEUE
+  - type: GVNIC
+  - type: SEV_CAPABLE
+  - type: SEV_LIVE_MIGRATABLE_V2
+  index: 0
+  interface: SCSI
+  kind: compute#attachedDisk
+  licenses:
+  - https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-12-bookworm
+  mode: READ_WRITE
+  source: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/zones/europe-southwest1-a/disks/servidor-streaming-tfg
+  type: PERSISTENT
+displayDevice:
+  enableDisplay: false
+fingerprint: wUnDmPn6bg0=
+id: '7282240662603961864'
+keyRevocationActionType: NONE
+kind: compute#instance
+labelFingerprint: HKSaRTk5jeY=
+labels:
+  goog-ops-agent-policy: v2-template-1-5-0
+lastStartTimestamp: '2026-05-01T07:41:29.075-07:00'
+lastStopTimestamp: '2026-05-01T08:54:15.610-07:00'
+machineType: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/zones/europe-southwest1-a/machineTypes/e2-standard-4
+metadata:
+  fingerprint: Hw6qbUQ242s=
+  items:
+  - key: enable-osconfig
+    value: 'TRUE'
+  - key: ssh-keys
+    value: |-
+      pablo_perez92:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIFlwJx8IEimU+SW8S3BgwByNLIt85uaEKZOgtwFmxpLUv8c9pXFM28Xg5SyaSL6nHJW0yTh7ORbqRruTX6ehWo= google-ssh {"userName":"pablo.perez92@hotmail.com","expireOn":"2026-05-01T14:44:38+0000"}
+      pablo_perez92:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCHnsHnPVcs4aq7f4W1gDexFF5g4EJtFbY4NwsGXdj4h9GhC+uVYxAYRA4Lxo3C67qUktg23I2K7PG6dpKoxcskmN/c70ZbuhjNQf3NoLi8MwzwkMh+d/UkK6fg1vCKTod+80VYhJEdmbKX8anNXhdCsMb0y3+k+aYstq2pUVmzjrJevASI02+3ehGIuukIKggBHr24dPcCFZZAHt7xCVcedALJwBtE/obqloxq/4A3wOjbi3EjOKAtXN3uMF+yBdvzqFEgoipkMZwnmHsK5nv6krJNfsfrvlog+Fq5o3NaftagOoO2rKwUgWzL/r5keQQNrS31uIiw5DYi5+2VSx21 google-ssh {"userName":"pablo.perez92@hotmail.com","expireOn":"2026-05-01T14:44:41+0000"}
+  kind: compute#metadata
+name: servidor-streaming-tfg
+networkInterfaces:
+- accessConfigs:
+  - kind: compute#accessConfig
+    name: External NAT
+    natIP: 34.175.126.212
+    networkTier: PREMIUM
+    type: ONE_TO_ONE_NAT
+  fingerprint: ns_fPpfsPyY=
+  kind: compute#networkInterface
+  name: nic0
+  network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+  networkIP: 10.0.1.2
+  stackType: IPV4_ONLY
+  subnetwork: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/regions/europe-southwest1/subnetworks/subred-madrid
+reservationAffinity:
+  consumeReservationType: ANY_RESERVATION
+resourceStatus:
+  effectiveInstanceMetadata:
+    enableOsconfigMetadataValue: true
+    vmDnsSettingMetadataValue: ZonalOnly
+satisfiesPzi: true
+scheduling:
+  automaticRestart: true
+  onHostMaintenance: MIGRATE
+  preemptible: false
+  provisioningModel: STANDARD
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/zones/europe-southwest1-a/instances/servidor-streaming-tfg
+serviceAccounts:
+- email: stream-cloud-tfg@stream-cloud-tfg.iam.gserviceaccount.com
+  scopes:
+  - https://www.googleapis.com/auth/cloud-platform
+shieldedInstanceConfig:
+  enableIntegrityMonitoring: true
+  enableSecureBoot: false
+  enableVtpm: true
+shieldedInstanceIntegrityPolicy:
+  updateAutoLearnPolicy: true
+startRestricted: false
+status: TERMINATED
+tags:
+  fingerprint: 6smc4R4d39I=
+  items:
+  - http-server
+  - https-server
+zone: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/zones/europe-southwest1-a
