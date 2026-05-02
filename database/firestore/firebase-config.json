@@ -1,0 +1,8 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyDeZXo8ukudcJEGo6dHvO4ACYbnCfIWqHE",
+  authDomain: "stream-cloud-tfg.firebaseapp.com",
+  projectId: "stream-cloud-tfg",
+  storageBucket: "stream-cloud-tfg.firebasestorage.app",
+  messagingSenderId: "148909849620",
+  appId: "1:148909849620:web:b7584beb9b7075742bfb01"
+};
