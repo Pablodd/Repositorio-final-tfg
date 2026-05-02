@@ -1,0 +1,18 @@
+ackDeadlineSeconds: 10
+expirationPolicy: {}
+labels:
+  goog-drz-eventarc-location: europe-southwest1
+  goog-drz-eventarc-uuid: a2e79825-42a5-4dec-b04a-ca034be97aa9
+  goog-eventarc: ''
+messageRetentionDuration: 86400s
+name: projects/stream-cloud-tfg/subscriptions/eventarc-europe-southwest1-trigger-zo8npw8x-sub-052
+pushConfig:
+  oidcToken:
+    audience: https://orquestador-streaming-uyq5fj7esq-no.a.run.app/
+    serviceAccountEmail: stream-cloud-tfg@stream-cloud-tfg.iam.gserviceaccount.com
+  pushEndpoint: https://orquestador-streaming-uyq5fj7esq-no.a.run.app/?__GCP_CloudEventsMode=CUSTOM_PUBSUB_projects%2Fstream-cloud-tfg%2Ftopics%2Factivar-streaming-topic
+retryPolicy:
+  maximumBackoff: 600s
+  minimumBackoff: 10s
+state: ACTIVE
+topic: projects/stream-cloud-tfg/topics/activar-streaming-topic
