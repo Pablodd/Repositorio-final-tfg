@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Streaming TFG - Autodetect</title>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; text-align: center; background: #eceff1; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        #status-banner { padding: 15px; margin-bottom: 20px; border-radius: 8px; font-weight: bold; font-size: 1.2em; transition: 0.3s; }
+        .online { background: #4caf50; color: white; border: 2px solid #2e7d32; }
+        .offline { background: #f44336; color: white; }
+        .waiting { background: #ff9800; color: white; }
+        .video-wrapper { background: #000; border-radius: 10px; overflow: hidden; }
+        .debug-box { background: #1a1a1a; color: #00ff00; padding: 15px; margin-top: 20px; text-align: left; font-family: 'Courier New', monospace; font-size: 12px; border-radius: 5px; max-height: 150px; overflow-y: auto; border-left: 5px solid #00ff00; }
+        h1 { color: #37474f; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📡 Sistema de Difusión Dinámica TFG</h1>
+        <div id="status-banner" class="waiting">IDENTIFICANDO SERVICIO...</div>
+        <div class="video-wrapper">
+            <video id="my-video" class="video-js vjs-big-play-centered vjs-16-9" controls preload="auto">
+                <p class="vjs-no-js">Habilita JavaScript.</p>
+            </video>
+        </div>
+        <div class="debug-box" id="debug">Iniciando consola de control...</div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+    <script>
+        const debug = document.getElementById('debug');
+        const banner = document.getElementById('status-banner');
+        function log(msg) { 
+            const t = new Date().toLocaleTimeString();
+            debug.innerHTML += `<br>[${t}] > ${msg}`; 
+            debug.scrollTop = debug.scrollHeight;
+        }
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDeZXo8ukudcJEGo6dHvO4ACYbnCfIWqHE",
+            authDomain: "stream-cloud-tfg.firebaseapp.com",
+            projectId: "stream-cloud-tfg",
+            storageBucket: "stream-cloud-tfg.firebasestorage.app",
+            messagingSenderId: "148909849620",
+            appId: "1:148909849620:web:b7584beb9b7075742bfb01"
+        };
+
+        // --- AUTODETECCIÓN QUIRÚRGICA ---
+        // Lee portal-tfg-760ae18f -> saca tfg_760ae18f
+        const hostname = window.location.hostname;
+        const match = hostname.match(/tfg-([a-z0-9]+)/);
+        let streamKey = match ? `tfg_${match[1]}` : null;
+
+        // Backup por si pruebas en local con ?event=
+        if (!streamKey) {
+            const params = new URLSearchParams(window.location.search);
+            streamKey = (params.get('event') || "").split('/')[0].trim();
+        }
+
+        if (!streamKey) {
+            banner.innerText = "ERROR: URL NO VÁLIDA";
+            banner.className = "offline";
+            log("No se pudo detectar clave en: " + hostname);
+        } else {
+            try {
+                // 1. Inicializar App
+                const app = firebase.initializeApp(firebaseConfig);
+                
+                // 2. EL HACK QUE TE FUNCIONÓ (Conexión forzada)
+                const db = firebase.firestore(app);
+                db._databaseId.database = "db-streaming"; 
+
+                const player = videojs('my-video');
+                log("Detección automática: " + streamKey);
+                log("Conexión forzada a DB: db-streaming");
+
+                // 3. Consulta (Usa el índice que ya tienes creado)
+                db.collection("sesiones")
+                    .where("stream_key", "==", streamKey)
+                    .orderBy("timestamp", "desc")
+                    .limit(1)
+                    .onSnapshot((snap) => {
+                        if (!snap.empty) {
+                            const data = snap.docs[0].data();
+                            log("Status recibido: " + data.status);
+
+                            if (data.status === "online" && data.url) {
+                                banner.innerText = "● EN DIRECTO: " + streamKey.toUpperCase();
+                                banner.className = "online";
+                                if (player.currentSrc() !== data.url) {
+                                    log("Cargando stream...");
+                                    player.src({ type: 'application/x-mpegURL', src: data.url });
+                                    player.play().catch(() => log("Interactúa para audio"));
+                                }
+                            } else {
+                                banner.innerText = "EMISIÓN PAUSADA";
+                                banner.className = "offline";
+                            }
+                        } else {
+                            banner.innerText = "BUSCANDO DATOS...";
+                            log("Sin documentos para: " + streamKey);
+                        }
+                    }, (err) => {
+                        log("ERROR FIRESTORE: " + err.message);
+                    });
+
+            } catch (e) {
+                log("ERROR CRÍTICO: " + e.message);
+            }
+        }
+    </script>
+</body>
+</html>

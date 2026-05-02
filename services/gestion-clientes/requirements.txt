@@ -1,0 +1,8 @@
+flask
+mysql-connector-python
+gunicorn
+requests
+flask-cors
+google-cloud-firestore
+google-api-python-client
+google-cloud-run

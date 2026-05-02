@@ -1,0 +1,9 @@
+.gemini/
+.config/
+.local/
+__pycache__/
+*.pyc
+*.ts
+*.m3u8
+venv/
+.env

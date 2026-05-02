@@ -1,0 +1,9 @@
+.npm/
+.ssh/
+.config/
+.local/
+.gemini/
+__pycache__/
+*.ts
+*.m3u8
+
