@@ -1,0 +1,267 @@
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '80'
+creationTimestamp: '2026-04-02T15:20:12.287-07:00'
+description: Permitir streaming HLS directo
+direction: INGRESS
+disabled: false
+id: '6989397409971524979'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: allow-http-streaming
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/allow-http-streaming
+sourceRanges:
+- 0.0.0.0/0
+targetTags:
+- http-server
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '3306'
+creationTimestamp: '2026-04-07T07:47:32.593-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '6747906233735882731'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-db-interna
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-db-interna
+sourceRanges:
+- 10.0.1.0/24
+targetTags:
+- db-server
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '80'
+creationTimestamp: '2026-04-28T09:57:29.815-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '1094970235512772630'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-http-tfg
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-http-tfg
+sourceRanges:
+- 0.0.0.0/0
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '3306'
+creationTimestamp: '2026-04-11T01:47:19.967-07:00'
+description: Permitir conexion interna al puerto 3306 para MariaDB
+direction: INGRESS
+disabled: false
+id: '4782162245670384760'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-mariadb-interno
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-mariadb-interno
+sourceRanges:
+- 10.0.0.0/8
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '1935'
+creationTimestamp: '2026-03-28T02:41:40.382-07:00'
+description: El túnel para el vídeo (RTMP)
+direction: INGRESS
+disabled: false
+id: '6370685805952375995'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-rtmp
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-rtmp
+sourceRanges:
+- 0.0.0.0/0
+---
+allowed:
+- IPProtocol: udp
+  ports:
+  - '10000'
+creationTimestamp: '2026-04-05T03:29:31.409-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '7584901944188045156'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-srt
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-srt
+sourceRanges:
+- 0.0.0.0/0
+---
+allowed:
+- IPProtocol: udp
+  ports:
+  - '10080'
+- IPProtocol: tcp
+  ports:
+  - '1935'
+- IPProtocol: tcp
+  ports:
+  - '1985'
+- IPProtocol: tcp
+  ports:
+  - '8080'
+creationTimestamp: '2026-04-05T03:44:54.298-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '3227991367124747209'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-srt-relay
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-srt-relay
+sourceRanges:
+- 0.0.0.0/0
+targetTags:
+- srt-server
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '22'
+creationTimestamp: '2026-03-28T03:36:10.838-07:00'
+description: Regla SSH PARA LA VM
+direction: INGRESS
+disabled: false
+id: '7716343736038986229'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-ssh-google-iap
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-ssh-google-iap
+sourceRanges:
+- 35.235.240.0/20
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '22'
+creationTimestamp: '2026-04-05T01:06:30.355-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '2470168426677511913'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-ssh-interno
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-ssh-interno
+sourceRanges:
+- 10.0.0.0/8
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '80'
+creationTimestamp: '2026-04-28T08:09:30.459-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '8817424259532813125'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-telemetria-ok
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-telemetria-ok
+sourceRanges:
+- 0.0.0.0/0
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '80'
+  - '443'
+creationTimestamp: '2026-03-28T02:44:35.753-07:00'
+description: El túnel para la web (HTTP/HTTPS)
+direction: INGRESS
+disabled: false
+id: '3666102091722137068'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: permitir-web
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/permitir-web
+sourceRanges:
+- 0.0.0.0/0
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '80'
+creationTimestamp: '2026-03-28T03:28:52.900-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '6829758165683934091'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: red-stream-tfg-allow-http
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/red-stream-tfg-allow-http
+sourceRanges:
+- 0.0.0.0/0
+targetTags:
+- http-server
+---
+allowed:
+- IPProtocol: tcp
+  ports:
+  - '443'
+creationTimestamp: '2026-03-28T03:28:52.943-07:00'
+description: ''
+direction: INGRESS
+disabled: false
+id: '1888212654559466379'
+kind: compute#firewall
+logConfig:
+  enable: false
+name: red-stream-tfg-allow-https
+network: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/networks/red-stream-tfg
+priority: 1000
+selfLink: https://www.googleapis.com/compute/v1/projects/stream-cloud-tfg/global/firewalls/red-stream-tfg-allow-https
+sourceRanges:
+- 0.0.0.0/0
+targetTags:
+- https-server
