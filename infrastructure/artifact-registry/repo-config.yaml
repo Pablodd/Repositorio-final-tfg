@@ -1,0 +1,12 @@
+createTime: '2026-03-28T13:00:53.091988Z'
+description: Cloud Run Source Deployments
+format: DOCKER
+mode: STANDARD_REPOSITORY
+name: projects/stream-cloud-tfg/locations/europe-southwest1/repositories/cloud-run-source-deploy
+registryUri: europe-southwest1-docker.pkg.dev/stream-cloud-tfg/cloud-run-source-deploy
+satisfiesPzi: true
+satisfiesPzs: true
+updateTime: '2026-05-02T11:32:44.488888Z'
+vulnerabilityScanningConfig:
+  enablementState: SCANNING_ACTIVE
+  lastEnableTime: '2026-03-28T13:00:41.412535983Z'
