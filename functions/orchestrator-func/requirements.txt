@@ -1,0 +1,7 @@
+mysql-connector-python
+google-api-python-client
+google-auth
+google-cloud-run
+google-cloud-iam
+pytz
+functions-framework
