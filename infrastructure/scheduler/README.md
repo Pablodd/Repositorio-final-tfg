@@ -1,0 +1,1 @@
+Este Scheduler actúa como el "cron" del sistema. Revisa cada minuto la base de datos MariaDB a través de una Cloud Function para verificar si hay streamings que deben comenzar. El destino es el tópico de Pub/Sub activar-streaming-topic.

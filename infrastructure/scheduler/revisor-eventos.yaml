@@ -1,0 +1,17 @@
+description: Disparador cada minuto para revisar MariaDB
+lastAttemptTime: '2026-05-02T11:00:02.107578Z'
+name: projects/stream-cloud-tfg/locations/europe-west1/jobs/revisor-eventos-streaming
+pubsubTarget:
+  data: RWplY3V0YXIgY29tcHJvYmFjacOzbiBkZSBldmVudG9z
+  topicName: projects/stream-cloud-tfg/topics/activar-streaming-topic
+retryConfig:
+  maxBackoffDuration: 3600s
+  maxDoublings: 5
+  maxRetryDuration: 0s
+  minBackoffDuration: 5s
+schedule: '* * * * *'
+scheduleTime: '2026-05-02T11:01:01.228538Z'
+state: ENABLED
+status: {}
+timeZone: Europe/Madrid
+userUpdateTime: '2026-04-25T09:10:21.010956Z'
